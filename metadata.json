@@ -1,0 +1,10 @@
+{
+	"author": "Martin Cajzer",
+	"email": "bayerberg@gmail.com",
+	"website": "https://bayerberg.com",
+	"version": "1.0",
+	"releaseDate": "2017-09-13",
+	"license": "MIT",
+	"compatible": "1.5.2,1.6,1.6.1,1.6.2,1.6.3,1.6.4,1.6.5,1.6.6",
+	"notes": ""
+}
