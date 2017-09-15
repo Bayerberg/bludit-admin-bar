@@ -154,8 +154,6 @@ public function siteHead()
           <li>Build <strong>'. $Site->currentBuild().'</strong></li>
         </ul>
       </div>';
-
-			return $html;
 		}
 
 		return false;
