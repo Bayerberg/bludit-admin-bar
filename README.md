@@ -1,4 +1,4 @@
-# Bludit Admin Bar
+# Bludit 1.x Admin Bar
 ### Simple toolbar for administrators.
 
 Have the ability to create and modify posts and pages while browsing your Bludit powered website.
