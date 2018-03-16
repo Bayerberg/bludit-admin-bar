@@ -14,5 +14,5 @@ Admin Bar checks where you are and based on that enables you to edit already exi
 #### Basic information on display 
 Quickly check the timezone, build version and locale as well as who are you logged in as. Handy when you have a couple of usernames and installations.
 
-#Important 
+## Important
 This plugin is for administrators only.
