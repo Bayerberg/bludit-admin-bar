@@ -53,7 +53,7 @@ public function siteHead()
       font-size: 1.6rem;
       margin:10px 0 20px 0;
     }
-    #admin-strip .admin-new-post, #admin-strip .admin-new-page {
+    #admin-strip .admin-new-content {
       background: #3d3d42;
       color: #fff !important;
       padding: 0.3rem;
@@ -63,7 +63,7 @@ public function siteHead()
       margin: 0.2rem 0.6rem;
       padding: 0.3rem 1rem;
     }
-    #admin-strip .admin-new-post:hover, #admin-strip .admin-new-page:hover {
+    #admin-strip .admin-new-content:hover {
       background: #a7c520;
       color: #1e1e20 !important;
       text-decoration: none;
@@ -132,22 +132,19 @@ public function siteHead()
     global $L;
     global $Url;
     global $Site;
-    global $Post;
     global $Page;
 		if($Login->role()=='admin') {
 			echo'
       <div id="admin-strip">
         <ul class="action-buttons">
-          <li><a href="'.HTML_PATH_ADMIN_ROOT.'new-post" class="admin-new-post">New post</a></li>
-          <li><a href="'.HTML_PATH_ADMIN_ROOT.'new-page" class="admin-new-page">New Page</a></li>';
-          if($Url->whereAmI()=='post') { echo '<li><a href="'.HTML_PATH_ADMIN_ROOT.'edit-post/'.$Post->slug().'" target="_blank" class="admin-edit-item">Edit post</a></li>';};
-          if($Url->whereAmI()=='page') { echo '<li><a href="'.HTML_PATH_ADMIN_ROOT.'edit-page/'.$Page->slug().'" target="_blank" class="admin-edit-item">Edit page</a></li>';};
+          <li><a href="'.HTML_PATH_ADMIN_ROOT.'new-content" class="admin-new-content">New content</a></li>
+          <li><a href="'.HTML_PATH_ADMIN_ROOT.'edit-content/'.$Page->slug().'" target="_blank" class="admin-edit-item">Edit post</a></li>';
           echo '<li><a href="'.HTML_PATH_ADMIN_ROOT.'" class="admin-panel">Admin Panel</a></li>
           <li class="float-me-to-the-right"><a href="'.HTML_PATH_ADMIN_ROOT.'/logout'.'" class="admin-page-logout">Logout</a></li>
         </ul>
         <ul class="info-list">
           <li class="you-gotta-spot-this">'.$Site->title().'</li>
-          <li >Logged in as: <strong>'.$Login->username().'</strong> </li>
+          <li>Logged in as: <strong>'.$Login->username().'</strong> </li>
           <li>Locale <strong>'.$Site->locale().'</strong></li>
           <li>Timezone <strong>'.$Site->timezone().'</strong></li>
           <li>Theme <strong>'. $theme = $Site->theme().'</strong></li>
