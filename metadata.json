@@ -3,8 +3,8 @@
 	"email": "bayerberg@gmail.com",
 	"website": "https://bayerberg.com",
 	"version": "1.0",
-	"releaseDate": "2017-09-13",
+	"releaseDate": "2018-03-16",
 	"license": "MIT",
-	"compatible": "1.5.2,1.6,1.6.1,1.6.2,1.6.3,1.6.4,1.6.5,1.6.6",
+	"compatible": "2.3",
 	"notes": ""
 }
