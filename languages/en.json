@@ -1,0 +1,7 @@
+{
+	"plugin-data":
+	{
+		"name": "Admin Bar",
+		"description": "Displays administrators toolbar when administrator is logged in. You can edit content as well as create them while browsing the site."
+	}
+}
