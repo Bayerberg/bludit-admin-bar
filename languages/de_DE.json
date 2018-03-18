@@ -1,0 +1,7 @@
+{
+	"plugin-data":
+	{
+		"name": "Admin Bar",
+		"description": "Zeigt eine Werkzeugleiste, mit der ein Administrator über das Frontend Inhalte erstellen und bearbeiten kann."
+	}
+}
